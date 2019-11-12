@@ -26,7 +26,7 @@ import { environment } from '../environments/environment';
     RouterModule,
     AppRoutingModule,
     ToastrModule.forRoot(),
-    ServiceWorkerModule.register('OneSignalSDKWorker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent],
   providers: [],
