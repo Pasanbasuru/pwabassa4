@@ -55,6 +55,7 @@
   "homepage": "https://demos.creative-tim.com/black-dashboard-angular/#/dashboard",
   "private": false,
   "dependencies": {
+    "@agm/core": "^1.0.0",
     "@angular/animations": "8.0.2",
     "@angular/common": "8.0.2",
     "@angular/compiler": "8.0.2",

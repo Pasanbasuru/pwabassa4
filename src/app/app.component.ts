@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent{
   title = "black-dashboard-angular";
+  lat = 40.730610;
+  lng = -73.935242;
 }
