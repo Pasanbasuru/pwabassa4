@@ -13,9 +13,6 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { ComponentsModule } from "./components/components.module";
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
-import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   imports: [
@@ -26,11 +23,7 @@ import { AgmCoreModule } from '@agm/core';
     NgbModule,
     RouterModule,
     AppRoutingModule,
-    ToastrModule.forRoot(),
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyB4L_XCvbPKnIR5M66RrVgGFABg6ZVXCWE'
-    }),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ToastrModule.forRoot()
   ],
   declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent],
   providers: [],

@@ -5,7 +5,6 @@ import { Routes, RouterModule } from "@angular/router";
 
 import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.component";
 import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
-import { AgmCoreModule } from '@agm/core';
 
 const routes: Routes = [
   {
@@ -45,10 +44,7 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes, {
       useHash: true
-    }),
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyB4L_XCvbPKnIR5M66RrVgGFABg6ZVXCWE'
-    }),
+    })
   ],
   exports: [RouterModule]
 })
