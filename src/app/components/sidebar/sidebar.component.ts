@@ -63,6 +63,13 @@ export const ROUTES: RouteInfo[] = [
     rtlTitle: "ار تي ال",
     icon: "icon-world",
     class: ""
+  },
+  {
+    path: "/travel",
+    title: "Travel",
+    rtlTitle: "ار تي ال",
+    icon: "icon-world",
+    class: ""
   }
 ];
 
